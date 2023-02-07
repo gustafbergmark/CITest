@@ -17,7 +17,7 @@ class MainTest {
     }
     
     @Test
-    void shouldPass() {
-        assertTrue(true);
+    void shouldFail() {
+        fail();
     }
 }
